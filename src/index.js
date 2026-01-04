@@ -64,15 +64,15 @@ const projects = [
   {
     title: "Traductor Lengua de Señas Chilena",
     images: [
-      "./src/assets/images/app - TDS/c1.jpeg",
-      "./src/assets/images/app - TDS/c2.jpeg",
-      "./src/assets/images/app - TDS/c3.png",
-      "./src/assets/images/app - TDS/c4.png",
-      "./src/assets/images/app - TDS/c5.png",
-      "./src/assets/images/app - TDS/c6.png",
-      "./src/assets/images/app - TDS/c7.png",
-      "./src/assets/images/app - TDS/c8.png",
-      "./src/assets/images/app - TDS/c9.png"
+      "./src/assets/images/app - TLS/c1.jpeg",
+      "./src/assets/images/app - TLS/c2.jpeg",
+      "./src/assets/images/app - TLS/c3.png",
+      "./src/assets/images/app - TLS/c4.png",
+      "./src/assets/images/app - TLS/c5.png",
+      "./src/assets/images/app - TLS/c6.png",
+      "./src/assets/images/app - TLS/c7.png",
+      "./src/assets/images/app - TLS/c8.png",
+      "./src/assets/images/app - TLS/c9.png"
     ],
     description: `Aplicación móvil desarrollada con inteligencia artificial para el reconocimiento y traducción de Lengua de Señas Chilena (LSCh) a partir de video.
     El sistema procesa secuencias de video capturadas por el dispositivo móvil, detectando y clasificando gestos de señas mediante modelos de visión por computador y aprendizaje profundo.
