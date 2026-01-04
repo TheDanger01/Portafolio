@@ -6,8 +6,8 @@ const projects = [
       "./src/assets/images/web - Obras Publicas/imgCal.webp",
       "./src/assets/images/web - Obras Publicas/imgCal2.webp",
       "./src/assets/images/web - Obras Publicas/imgCal3.webp",
-      "./src/assets/images/web - Obras Publicas/Inf.png",
-      "./src/assets/images/web - Obras Publicas/Inf (2).png"
+      "./src/assets/images/web - Obras Publicas/inf1.png",
+      "./src/assets/images/web - Obras Publicas/inf2.png"
     ],
     description: `Plataforma web desarrollada para la gestión, coordinación y evaluación de proyectos de obras públicas.
             El sistema permite a los clientes registrar obras, agendar fechas de visita y solicitar evaluaciones técnicas.
@@ -64,15 +64,15 @@ const projects = [
   {
     title: "Traductor Lengua de Señas Chilena",
     images: [
-      "./src/assets/images/app - Traductor Lengua De Señas/C1.jpeg",
-      "./src/assets/images/app - Traductor Lengua De Señas/C2.jpeg",
-      "./src/assets/images/app - Traductor Lengua De Señas/C3.png",
-      "./src/assets/images/app - Traductor Lengua De Señas/C4.png",
-      "./src/assets/images/app - Traductor Lengua De Señas/C5.png",
-      "./src/assets/images/app - Traductor Lengua De Señas/C6.png",
-      "./src/assets/images/app - Traductor Lengua De Señas/C7.png",
-      "./src/assets/images/app - Traductor Lengua De Señas/C8.png",
-      "./src/assets/images/app - Traductor Lengua De Señas/C9.png"
+      "./src/assets/images/app - TDS/c1.jpeg",
+      "./src/assets/images/app - TDS/c2.jpeg",
+      "./src/assets/images/app - TDS/c3.png",
+      "./src/assets/images/app - TDS/c4.png",
+      "./src/assets/images/app - TDS/c5.png",
+      "./src/assets/images/app - TDS/c6.png",
+      "./src/assets/images/app - TDS/c7.png",
+      "./src/assets/images/app - TDS/c8.png",
+      "./src/assets/images/app - TDS/c9.png"
     ],
     description: `Aplicación móvil desarrollada con inteligencia artificial para el reconocimiento y traducción de Lengua de Señas Chilena (LSCh) a partir de video.
     El sistema procesa secuencias de video capturadas por el dispositivo móvil, detectando y clasificando gestos de señas mediante modelos de visión por computador y aprendizaje profundo.
