@@ -5,14 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", function (e) {
     e.preventDefault(); // Evita recargar la página
 
-    /*const nameImput = document.getElementById("name");
-    const emailInput = document.getElementById("email");
-    const messageInput = document.getElementById("message");
-
-    const name = nameInput.value;
-    const email = emailInput.value;
-    const message = messageInput.value;*/
-
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
     const message = document.getElementById("message").value.trim();
@@ -55,14 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /* ===== ENVIAR CORREO ===== */
-    /*const subject = encodeURIComponent("Contacto desde Portafolio Web");
-    const body = encodeURIComponent(
-      `Nombre: ${name}\nCorreo: ${email}\n\nMensaje:\n${message}`
-    );
-
-    window.location.href =
-      `mailto:wilsonmorenob.2015@gmail.com?subject=${subject}&body=${body}`;
-    */
     emailjs.send("service_hulzuwb", "template_xn1m1oi", {
       name: name,
       email: email,

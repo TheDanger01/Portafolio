@@ -11,7 +11,61 @@ body {
   line-height: 1.6;
 }
 
-/* ===== HERO ===== */
+/* ===== HERO Botones ===== */
+.top-actions {
+  display: flex;
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  align-items: center;
+  gap: 1rem;
+  z-index: 2000;
+}
+
+.btn.cv {
+  width: fit-content;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+/*.btn.language {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  background: transparent;
+  color: #38bdf8;/*#e5e7eb;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn.language:hover {
+  background: #38bdf8;
+  color: #020617;
+}*
+
+#langToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+#langToggle span {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+#langToggle span.active {
+  opacity: 1;
+  font-weight: 700;
+}*/
+
+/* ===== HERO Contenido ===== */
 .hero {
   background: linear-gradient(135deg, #1e293b, #020617);
   padding: 4rem 2rem;
@@ -246,23 +300,6 @@ section h2 {
 .modal.active {
   display: flex;
 }
-
-/*.modal-content {
-  background: #020617;
-  width: 85%;
-  max-width: 1100px;
-  border-radius: 16px;
-  padding: 2rem;
-  position: relative;
-}
-
-.modal-content span {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  cursor: pointer;
-  font-size: 1.2rem;
-}*/
 
 .modal-content.large {
   width: 90%;
